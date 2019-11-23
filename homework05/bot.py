@@ -233,5 +233,4 @@ def get_near_lesson(message):
             break
 
 
-bot.remove_webhook()
 bot.polling()
