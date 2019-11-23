@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 from telebot import apihelper
 
 access_token = config.access_token
-apihelper.proxy = {'https': 'socks5://georgy.komarov:2naturala1613@aws.komarov.ml:7777'}
 bot = telebot.TeleBot(access_token)
 
 
@@ -233,4 +232,4 @@ def get_near_lesson(message):
             break
 
 
-bot.polling()
+bot.polling(nonstop=True)
