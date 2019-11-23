@@ -232,4 +232,4 @@ def get_near_lesson(message):
             break
 
 
-bot.polling(nonstop=True)
+bot.polling(non_stop=True)
